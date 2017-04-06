@@ -5,8 +5,8 @@ import (
 )
 
 type Fib struct {
-	Input  int       `json:"input"`
-	Output *big.Int  `json:"fibonacci"`
+	Input  int      `json:"input"`
+	Output *big.Int `json:"fibonacci"`
 }
 
 type Fibs []Fib
